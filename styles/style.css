@@ -1,9 +1,35 @@
 @CHARSET "ISO-8859-1";
 
+/* *{ border: 1px solid white; } */
+
 body {
 	background: url("D:/Workspace/FrontEnd/images/bruntpaper.jpg");
 	margin: 0 auto;
 	padding: 0 auto;
+}
+
+/* unvisited link */
+a:link {
+    color: Ghostwhite;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: underline;
 }
 
 #header {
@@ -18,9 +44,47 @@ body {
 	text-transform: uppercase;
 }
 
+#nav {
+	padding-left: 70%;
+}
+
+#navigation{
+	background-color: #4CAF50; /* Green */
+    border: 1px solid #FFF;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#login_form {
+	overflow: hidden;
+	float: center;
+	background-color: gold;
+	font-size: 18px;
+}
+
 #main-wrap {
 	overflow: hidden;
 	border: 1px solid #FFF;
+}
+
+.diversity_about_us{
+	position: relative;
+	float: left;
+	width: 50%;
+}
+
+.notify_about_us{
+	margin: 0 auto;
+	position: relative;
+	float: right;
+	width: 49%;
+	color: #FFF;
+	font-size: 36px;
+	font-family: Georgia, serif;
 }
 
 #sidebar {
