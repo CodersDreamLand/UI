@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>My Pilot Project</title>
+<link
+	href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Quicksand:300,700"
+	rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+	<div id="header">
+		<h1>Behavior Driven Development Suite</h1>
+	</div>
+
+	<div id="main-wrap">
+		<div id="sidebar">
+			<h3>Select test type</h3>
+			<input type="radio" value="bdd" checked="checked">BDD Tests<br>
+			<input type="radio" value="selenium">Selenium Tests<br>
+			<input type="radio" value="rest">REST API Tests
+		</div>
+		<div id="content">
+			<div class="content-wrap">
+				<h3>Add test step for BDD scenario</h3>
+				<table class="step">
+					<thead>
+						<tr>
+							<th>Step</th>
+							<th>Description</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><select id="gherkin">
+									<option value="given">Given</option>
+									<option value="when">When</option>
+									<option value="then">Then</option>
+									<option value="and">And</option>
+									<option value="but">But</option>
+							</select></td>
+							<td><input id="step" type="text"></input></td>
+							<td>
+								<button id="addStep">Add Step</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3>Scenario steps</h3>
+				<table class="scenario">
+					<tr>
+						<th>Description</th>
+						<th>Action</th>
+					</tr>
+				</table>
+			</div>
+
+			<div class="feature">
+				<h3>
+					Final BDD Scenario:
+					<button id="generate">Generate</button>
+				</h3>
+				<textarea id="outline" rows="10" cols="75"></textarea>
+				<p>
+					<strong>Note:</strong> This scenario will be added in feature file
+					to excecute <i>cucumber</i> test cases.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="footer">Copyright &copy; BigDreamers.com 2017</div>
+</body>
+</html>
+

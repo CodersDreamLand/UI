@@ -1,0 +1,122 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background: url("D:/Workspace/FrontEnd/images/bruntpaper.jpg");
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+#header {
+	background: url("D:/Workspace/FrontEnd/images/shards.png");
+	padding: 0.25em;
+	color: #FFF;
+	clear: left;
+	text-align: center;
+	font-family: Quicksand, Times, sans-serif;
+	background-position: center center;
+	padding: 0.25em;
+	text-transform: uppercase;
+}
+
+#main-wrap {
+	overflow: hidden;
+	border: 1px solid #FFF;
+}
+
+#sidebar {
+	float: left;
+	width: 20%;
+	color: GhostWhite;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#content {
+	overflow: hidden;
+}
+
+.content-wrap {
+	float: left;
+	width: 50%;
+	margin: 5px;
+	color: GhostWhite;
+}
+
+.feature {
+	float: right;
+	width: 45%;
+	margin: 5px;
+	color: GhostWhite;
+}
+
+#footer {
+	padding: 1rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 20px;
+	text-align: right;
+	color: grey;
+	font-size: 16px;
+	font-family: Georgia, serif;
+}
+
+.step {
+	border-collapse: collapse;
+	border: 1px solid #ddd;
+	width: 100%;
+}
+
+.step th {
+	background-color: #f5f5f5;
+	border: 1px solid #ddd;
+	text-align: center;
+	padding: 5px;
+	color: chocolate;
+}
+
+.step td {
+	border: 1px solid #ddd;
+	padding: 5px;
+	text-align: center;
+}
+
+.scenario {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.scenario th {
+	background-color: #4CAF50;
+	text-align: left;
+	color: white;
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+}
+
+.scenario td {
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+}
+
+.scenario tr:hover {
+	background-color: chocolate;
+}
+
+input[type="text"] {
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+select {
+	width: 100%
+}
+
+.feature p{
+	font-size: 18px;
+}
