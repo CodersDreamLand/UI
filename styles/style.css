@@ -1,39 +1,38 @@
 @CHARSET "ISO-8859-1";
 
 /* *{ border: 1px solid white; } */
-
 body {
-	background: url("D:/Workspace/FrontEnd/images/bruntpaper.jpg");
+	background-image: url('../../UI/images/bruntpaper.jpg');
 	margin: 0 auto;
 	padding: 0 auto;
 }
 
 /* unvisited link */
 a:link {
-    color: Ghostwhite;
-    text-decoration: none;
+	color: Ghostwhite;
+	text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: red;
-    text-decoration: none;
+	color: red;
+	text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #4CAF50;
-    text-decoration: underline;
+	color: #4CAF50;
+	text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-    color: blue;
-    text-decoration: underline;
+	color: blue;
+	text-decoration: underline;
 }
 
 #header {
-	background: url("D:/Workspace/FrontEnd/images/shards.png");
+	background: url('../../UI/images/shards.png');
 	padding: 0.25em;
 	color: #FFF;
 	clear: left;
@@ -48,15 +47,15 @@ a:active {
 	padding-left: 70%;
 }
 
-#navigation{
+#navigation {
 	background-color: #4CAF50; /* Green */
-    border: 1px solid #FFF;
-    color: white;
-    padding: 10px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+	border: 1px solid #FFF;
+	color: white;
+	padding: 10px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
 }
 
 #login_form {
@@ -71,13 +70,13 @@ a:active {
 	border: 1px solid #FFF;
 }
 
-.diversity_about_us{
+.diversity_about_us {
 	position: relative;
 	float: left;
 	width: 50%;
 }
 
-.notify_about_us{
+.notify_about_us {
 	margin: 0 auto;
 	position: relative;
 	float: right;
@@ -181,6 +180,6 @@ select {
 	width: 100%
 }
 
-.feature p{
+.feature p {
 	font-size: 18px;
 }
